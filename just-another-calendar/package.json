@@ -1,0 +1,20 @@
+{
+  "name": "just-another-calendar",
+  "version": "1.0.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeoNordic/vienna-calling-web-components.git"
+  },
+  "author": {
+    "name": "Codeo Norge AS",
+    "email": "jac@codeo.no",
+    "url": "https://codeo.no"
+  },
+  "scripts": {
+    "upload": "node upload.js"
+  },
+  "dependencies": {
+    "open": "^11.0.0"
+  }
+}

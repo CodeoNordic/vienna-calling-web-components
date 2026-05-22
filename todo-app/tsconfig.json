@@ -1,0 +1,33 @@
+{
+	"compilerOptions": {
+		"allowJs": true,
+		"allowSyntheticDefaultImports": true,
+        "checkJs": true,
+		"esModuleInterop": true,
+		"experimentalDecorators": true,
+		"jsx": "react-jsx",
+		"module": "nodenext",
+		"moduleResolution": "nodenext",
+        "rootDir": ".",
+		"paths": {
+			"@components/*": ["./src/components/*"],
+			"@hooks/*": ["./src/hooks/*"],
+			"@/*": ["./src/*"]
+		},
+        "pretty": true,
+        "removeComments": true,
+		"sourceMap": false,
+		"strict": true,
+		"target": "esnext",
+		"typeRoots" : ["./node_modules/@types", "./src/types"]
+	},
+	"include": [
+		"./src/**/*.ts",
+		"./src/**/*.tsx"
+	],
+	"exclude": [
+		"node_modules/",
+		"./src/**/**.deprecated.ts",
+		"./src/**/**.deprecated.tsx"
+	]
+}

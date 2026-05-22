@@ -1,0 +1,11 @@
+{
+  "plugins": {
+    "posthtml-doctype": { "doctype": "HTML 5" },
+    "htmlnano": {
+      "collapseWhitespace": "aggressive",
+      "removeComments": true,
+      "minifyCss": true,
+      "minifyJs": false
+    }
+  }
+}

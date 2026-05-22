@@ -1,0 +1,7 @@
+{
+    "moduleName": "JustAnotherCalendar",
+    "uploadScript": "UploadHTML",
+    "fmpFile": "vienna-calling-web-components",
+
+    "optional:server": "example.com"
+}

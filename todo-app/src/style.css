@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #F5831F;
+    text-align: center;
+}
+
+button {
+    padding: 6px 16px;
+    background-color: transparent;
+    border-width: 3px;
+    border-style: solid;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.create-btn {
+    color: springgreen;
+    border-color: springgreen;
+}
+
+.delete-btn {
+    background-color: crimson;
+    color: white;
+    border: none;
+    margin-top: 7px;
+    margin-left: auto;
+    padding: 10px 18px;
+}
+
+.create {
+    width: 20rem;
+    margin: 12px auto;
+    display: flex;
+    justify-content: center;
+    column-gap: 8px;
+}
+
+.todos {
+    margin-bottom: 5rem;
+}
+
+.todo {
+    width: 40rem;
+    display: grid;
+    margin: 0 auto;
+    padding: 12px 6px 12px 12px;
+    grid-template-columns: 3fr 1fr;
+}
+
+.todo:nth-child(odd) {
+    background-color: #d75f2f;
+}
+
+.todo:nth-child(even) {
+    background-color: #F5831F;
+}
