@@ -22,5 +22,5 @@ This is all project files used during the "Make your own Web Component from Scra
 
 # Building to FileMaker
 - Run `npm run upload` in the terminal inside the [Hello World](./hello-world/) directory
-  - This will both build the HTMl for production, and run [upload.js](./hello-world/upload.js)
+  - This will both build the HTML for production, and run [upload.js](./hello-world/upload.js)
 - In the [FileMaker Demo](./vienna-calling-web-components.fmp12), go to the HTML-tab, and disable "Dev" in the bottom right
