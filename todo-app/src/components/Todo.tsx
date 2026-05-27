@@ -9,6 +9,7 @@ const Todo: React.FC<TodoProps & {
 }> = props => {
     return <div className="todo">
         <p className="title">{props.title}</p>
+        
         <button
             className="delete-btn"
             onClick={() => props.onDelete(props.id)}
